@@ -14,8 +14,11 @@
   Then alert your name using dot notation.
 */
 
-//Code here
-
+var me = {
+  name: "Tayt",
+  age: 26
+};
+alert(me.name);
 
 
 ////////// PROBLEM 2 //////////
@@ -25,8 +28,14 @@
   Have the values to those keys be your favorite thing in that category.
 */
 
-//Code here
-
+var favoriteThings = {
+  band: 'Elliot Smith',
+  food: 'Pizza',
+  person: 'Elon Musk',
+  book: 'The gene',
+  movie: 'Pulp Fiction',
+  holiday: 'Hannukah',
+};
 
 
 /*
