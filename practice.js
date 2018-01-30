@@ -147,8 +147,14 @@ methodCollection.logHello();
   Return a new object with all of the information that you passed in.
 */
 
-//Code Here
-
+makePerson = (name, birthday, ssn) => {
+   var newObj = {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
+  }
+  return newObj;
+};
 
 
 ////////// PROBLEM 7 //////////
@@ -158,6 +164,13 @@ methodCollection.logHello();
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-//Code Here
-
+makeCard = (cardNumber, expirationDate, securityDate, securityCode) => {
+  var obj = {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityDate: securityDate,
+    securityCode: securityCode
+  }
+  return obj;
+};
 
