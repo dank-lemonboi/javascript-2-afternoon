@@ -42,7 +42,8 @@ var favoriteThings = {
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = 'Geo Metro'
+favoriteThings.brand = 'Samsung'
 
 
 
@@ -50,8 +51,8 @@ var favoriteThings = {
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 
 ////////// PROBLEM 3 //////////
@@ -64,9 +65,11 @@ var favoriteThings = {
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
 */
 
-//Code here
+var backPack = {};
 
-
+let item = 'firstPocket';
+backPack['item'] = 'chapstick';
+backPack.color = 'Black';
 
 /*
   After you do the above, alert your entire backPack object.
